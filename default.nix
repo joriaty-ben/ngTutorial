@@ -6,5 +6,6 @@ stdenv.mkDerivation rec {
     nodejs-12_x
     yarn
     nodePackages."@angular/cli"
+    nodePackages.typescript
   ];
 }
