@@ -1,6 +1,4 @@
-let message;
-message = 'abc';
-let endsWithC = (<string>message).endsWith('c');
-let alternativeWay = (message as string).endsWith('c');
+import { Point } from './point';
 
-console.log(endsWithC, alternativeWay);
+let point = new Point(1, 2);
+point.draw();
